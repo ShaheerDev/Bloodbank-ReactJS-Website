@@ -7,15 +7,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter } from 'react-router-dom';
 import firebase from 'firebase/app'
 
+// add your own firebase config here. enable realtime database
 var firebaseConfig = {
-  apiKey: "AIzaSyBPAEj0ku0YBF1DzCc1b6mGpEKz0Bhn9Fk",
-  authDomain: "bloodbank-pro.firebaseapp.com",
-  databaseURL: "https://bloodbank-pro-default-rtdb.firebaseio.com",
-  projectId: "bloodbank-pro",
-  storageBucket: "bloodbank-pro.appspot.com",
-  messagingSenderId: "533183192799",
-  appId: "1:533183192799:web:82b1a608af84d64e6d536a",
-  measurementId: "G-06F49XSLF4"
+
 };
 
 firebase.initializeApp(firebaseConfig);
